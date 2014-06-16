@@ -1,0 +1,12 @@
+# deps
+node_modules
+
+# bower
+public/bower_components
+.bower-cache
+
+# output
+dist
+app/server/newrelic_agent.log
+newrelic_agent.log
+npm-debug.log

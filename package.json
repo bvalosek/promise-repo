@@ -1,0 +1,42 @@
+{
+  "name": "promise-repository",
+  "version": "0.1.0",
+  "description": "Map an object store with a common interface around a clean, promise-driven API ",
+  "author": {
+    "name": "Brandon Valosek",
+    "email": "bvalosek@gmail.com",
+    "url": "http://bvalosek.com"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^2.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bvalosek/promise-repository.git"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/28..canary",
+      "firefox/23..nightly",
+      "safari/5.1..latest",
+      "opera/latest",
+      "opera/next",
+      "iphone/latest",
+      "ipad/latest",
+      "android-browser/latest"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^2.0.7"
+  }
+}
