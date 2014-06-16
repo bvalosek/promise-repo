@@ -5,8 +5,7 @@
 
 Map an object store with a common interface around a clean, promise-driven API.
 
-[![browser
-support](https://ci.testling.com/bvalosek/promise-repo.png)](https://ci.testling.com/bvalosek/promise-repo)
+[![browser support](https://ci.testling.com/bvalosek/promise-repo.png)](https://ci.testling.com/bvalosek/promise-repo)
 
 ## Installation
 
