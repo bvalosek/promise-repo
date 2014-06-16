@@ -1,6 +1,6 @@
 {
   "name": "promise-repository",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Map an object store with a common interface around a clean, promise-driven API ",
   "author": {
     "name": "Brandon Valosek",
