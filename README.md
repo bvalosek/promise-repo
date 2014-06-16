@@ -1,17 +1,17 @@
-# promise-repository
+# promise-repo
 
-[![Build Status](https://travis-ci.org/bvalosek/promise-repository.png?branch=master)](https://travis-ci.org/bvalosek/promise-repository)
-[![NPM version](https://badge.fury.io/js/promise-repository.png)](http://badge.fury.io/js/promise-repository)
+[![Build Status](https://travis-ci.org/bvalosek/promise-repo.png?branch=master)](https://travis-ci.org/bvalosek/promise-repo)
+[![NPM version](https://badge.fury.io/js/promise-repo.png)](http://badge.fury.io/js/promise-repo)
 
 Map an object store with a common interface around a clean, promise-driven API.
 
 [![browser
-support](https://ci.testling.com/bvalosek/promise-repository.png)](https://ci.testling.com/bvalosek/promise-repository)
+support](https://ci.testling.com/bvalosek/promise-repo.png)](https://ci.testling.com/bvalosek/promise-repo)
 
 ## Installation
 
 ```
-$ npm install promise-repository
+$ npm install promise-repo
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ function User()
 Create a new, promise-based repository of `User` models:
 
 ```javascript
-var Repository = require('promise-repository');
+var Repository = require('promise-repo');
 
 var users = new Repository(User);
 ```
@@ -69,7 +69,7 @@ users.source({
 ```
 
 Even though our provider isn't returning a promise, the mapper in
-`promise-repository` will ensure that all responses are noramlized to promises.
+`promise-repo` will ensure that all responses are normalized to promises.
 
 Now we can `get` and `add`:
 
@@ -170,10 +170,10 @@ representation.
 While can write your own providers by implementing some or all of the accessor
 methods, here are some modules for common backing stores:
 
-* postgres-repo
-* redis-repo
-* memory-repo
-* rest-ajax-repo
+* [postgres-repo](https://github.com/bvalosek/postgres-repo)
+* redis-repo (coming soon)
+* memory-repo (coming soon)
+* rest-ajax-repo (coming soon)
 
 ## Testing
 
