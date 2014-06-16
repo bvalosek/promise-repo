@@ -1,5 +1,5 @@
 {
-  "name": "promise-repository",
+  "name": "promise-repo",
   "version": "0.2.0",
   "description": "Map an object store with a common interface around a clean, promise-driven API ",
   "author": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bvalosek/promise-repository.git"
+    "url": "git@github.com:bvalosek/promise-repo.git"
   },
   "testling": {
     "files": "test/*.js",
